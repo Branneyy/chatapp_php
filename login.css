@@ -1,0 +1,88 @@
+body{
+	display: flex;
+	flex-wrap: wrap;
+	justify-content: center;
+	align-items: center;
+	text-align: center;
+}
+
+.box {
+	box-sizing: content-box;
+	position: relative;
+	background-color: #999999; 
+	padding: 25px; 
+	width: 500px;
+	height: 600px;
+	border-radius: 5px;
+	border: 5px;
+	background-image: url('img/scene5.jpeg');
+	/*opacity: 0.1;*/
+	box-shadow: 10px 10px 25px 10px #cccccc;
+
+}
+.hello{
+
+	float: left;
+	width: 15%;
+	height: 100%;
+	background-color: #a0b1ba;
+	border-top-right-radius: 20px;
+	border-bottom-right-radius: 20px;
+	margin-left: -25px; 
+	margin-right: 15px;
+}
+.login {
+	justify-content: center;
+	text-align: center;
+	align-items: center;
+	font-family: "Times New Roman";
+	color: black;
+	font-weight: bold;
+
+}
+.login label, input{
+	position: relative;
+	padding: 10px;
+}
+.login input{
+	
+	margin-bottom: 10px;
+}
+.login-btn{
+	padding: 2px;
+	border-collapse: collapse;
+	border-radius: 5px;
+	
+}
+.login-btn :hover{
+	background-color: green;
+	font-size: 15px;
+	font-weight: bolder;
+	color: #222124;
+	cursor: pointer;
+	transition: 0.5s ease-in-out;
+}
+.box a{
+	padding: 5px;
+	border-radius: 4px;
+	background-color: #97b89e;
+	text-decoration-line: none;
+	color: #0cb025;
+	transition: 0.5s ease-in-out;
+}
+.box a :hover{
+	font-size: 21px;
+	font-weight: bolder;
+	color: #065713;
+	
+}
+/*.view{
+	justify-content: center;
+	text-decoration-line: none;
+	font-family: 'Arial';
+	padding: 10px;
+	border-top-left-radius: 5px;
+	border-top-right-radius: 5px;
+	background-color: #ccffe6;
+	color: black;
+}*/

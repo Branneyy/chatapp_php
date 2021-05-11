@@ -1,0 +1,26 @@
+.side a {
+	position: absolute;
+	text-decoration-line: none;
+	font-family: Cursive;
+	left: 50px;
+	margin-top: 20px;
+	color: black;
+	background-color: #fff;
+	border-radius: 3px;
+	padding: 13px;
+	width: 150px;
+}
+.side a:hover{
+	background-color: #76dede;
+	color: black;
+}
+.side .selected a{
+	background-color: #76dede;
+
+}
+.edit-btn{
+	float: right;
+	background-color: #00ff00;
+	font-family: cursive;
+	
+}
